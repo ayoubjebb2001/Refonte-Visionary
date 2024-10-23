@@ -1,13 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./src/*.{html,js}"],
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['fira-sans', 'system-ui', 'sans-serif'],
-      }
+        'fira': ["Fira Sans",'sans-serif'],
+      },
     },
   },
   plugins: [],
 }
-
