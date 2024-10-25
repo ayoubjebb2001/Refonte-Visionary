@@ -680,41 +680,45 @@
   <!-- Fun Fact -->
 
   <!-- Testimonials -->
-  <section id="testimonial" class="py-16 bg-white">
+  <section class="py-16 bg-white">
     <div class="max-w-7xl mx-auto px-4 font-light text-[#495057]">
-      <!-- Titles kaynin mzian -->
-      <div class="text-center mb-12">
+      <!-- Titles -->
+      <div class="text-center mb-16"> <!-- zdt mb-16 -->
         <h2 class="text-2xl font-light text-opacity-60">Testimonial</h2>
-        <h3 class="text-4xl font-bold">What Our Clients Says</h3>
+        <h3 class="text-4xl font-bold mt-2">What Our Clients Says</h3> <!-- zdt mt-2 -->
       </div>
 
-      <!-- Grid -->
-      <div class="grid md:grid-cols-2 gap-8">
-        <!-- Testimonial Card -->
-        <div class="bg-white p-6 rounded-lg shadow-lg">
-          <!-- Profile Section -->
-          <div class="flex items-center mb-4">
-            <img src="../img/avatar-6.jpg" alt="Photo client Richard" class="w-20 h-20 rounded-full mr-4">
-            <p class="text-opacity-50">"Le service était exceptionnel ! L'équipe a dépassé mes attentes avec leur
-              professionnalisme et leur attention aux détails. Le projet a été livré dans les délais et le résultat
-              final est exactement ce que je recherchais."</p>
-          </div>
-          <!-- Name Section with styling -->
-          <h4 class="text-lg font-bold  mx-14 px-10">Richard Reb</h4>
+      <!-- Grid with more spacing -->
+      <div class="grid md:grid-cols-2 gap-16"> <!-- bdlt gap-8 l gap-16 -->
+        <!-- First Testimonial Card -->
+        <div class="relative bg-white p-8 rounded-lg shadow-lg my-8"> <!-- zdt p-8 w my-8 -->
+          <!-- Profile Section with adjusted spacing -->
+          <div class="flex items-center mb-6">
+            <div class="absolute -left-12 ">
 
+              <img src="../img/avatar-7.jpg" alt="Photo client" class="w-20 h-20 rounded-[2rem] mr-4" />
+            </div>
+            <p class="pl-6 text-opacity-50">
+              Le service était exceptionnel ! L'équipe a dépassé mes attentes avec leur
+              professionnalisme et leur attention aux détails."
+            </p>
+          </div>
+          <h3 class="text-lg font-bold mx-6">Richard Reb</h3>
         </div>
 
-        <div class="bg-white p-6 rounded-lg shadow-lg">
-          <!-- Profile Section Dupplicated -->
-          <div class="flex items-center mb-4">
-            <img src="../img/avatar-7.jpg" alt="Photo client John" class="w-20 h-20 rounded-full mr-4">
-            <p class="text-opacity-60">"Je suis impressionné par la qualité du travail fourni. La communication était
-              claire tout au long du projet, et l'équipe a fait preuve d'une grande flexibilité pour s'adapter à nos
-              besoins spécifiques. Je recommande vivement leurs services !"</p>
+        <!-- Second Testimonial Card -->
+        <div class="relative bg-white p-8 rounded-lg shadow-lg my-8">
+          <!-- Profile Section with adjusted spacing -->
+          <div class="flex items-center mb-6">
+            <div class="absolute -left-12 top-4">
+              <img src="../img/avatar-6.jpg" alt="Photo client" class="w-20 h-20 rounded-[2rem] mr-4" />
+            </div>
+            <p class="pl-6 text-opacity-50">
+              Je suis impressionné par la qualité du travail fourni. La communication était claire tout au long du
+              projet.
+            </p>
           </div>
-          <!-- Name Sect styling -->
-          <h4 class="text-lg font-bold mx-14 px-10">John Doe</h4>
-
+          <h3 class="text-lg font-bold mx-6">John Doe</h3>
         </div>
       </div>
     </div>
@@ -955,12 +959,13 @@
     </div>
   </section>
   <!--Footer -->
-  <footer class="bg-[#212529F2] text-white/80 font-light py-12">
-    <div class="max-w-screen-xl mx-auto px-4 md:px-8">
-
+  <footer class="relative bg-[#212529F2] text-white/80 font-light py-12">
+    <div class="absolute inset-0">
+      <img src="../img/section.jpg" alt="Footer Background" class="w-full h-full object-cover opacity-20">
+    </div>
+    <div class="relative max-w-screen-xl mx-auto px-4 md:px-8">
       <!-- Grid layout for mobile (stacked sections only on small screens) -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-
         <!-- About Us Section -->
         <div class="text-center md:text-left">
           <h3 class="text-white font-bold mb-4 pb-3 border-b-2 border-[#DEE2E633] uppercase">About Us</h3>
@@ -981,7 +986,7 @@
             Copyright © 2024 <span class="text-[#9E0000]">Lorenz Cipher</span>
           </p>
         </div>
-
+  
         <!-- Useful Links Section -->
         <div class="text-center md:text-left">
           <h3 class="text-white font-bold mb-4 pb-3 border-b-2 border-[#DEE2E633] uppercase">Useful Links</h3>
@@ -996,7 +1001,7 @@
             <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
           </ul>
         </div>
-
+  
         <!-- Contact Info Section -->
         <div class="text-center md:text-left">
           <h3 class="text-white font-bold mb-4 pb-3 border-b-2 border-[#DEE2E633] uppercase">Contact Info</h3>
@@ -1014,10 +1019,11 @@
             <a href="www.rss.com" class="text-white"><i class="fa-solid fa-square-rss"></i></a>
           </div>
         </div>
-
+  
       </div>
     </div>
   </footer>
+  
 
   <!-- Footer -->
 
